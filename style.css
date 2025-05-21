@@ -1,0 +1,58 @@
+/* Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+body {
+    background-color: #fff0f5; /* Light pink */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Sections */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border: 3px solid #8a2be2; /* Purple */
+    border-radius: 15px;
+    background: white;
+}
+
+/* Typography */
+h1, h2 {
+    color: #ff69b4; /* Hot pink */
+    margin-bottom: 15px;
+}
+
+/* Image */
+img {
+    border: 5px solid #ff69b4;
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Form */
+.registration-form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #e0b0ff; /* Light purple */
+    border-radius: 8px;
+}
+
+.registration-form input[type="submit"] {
+    background: #8a2be2; /* Purple */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.registration-form input[type="submit"]:hover {
+    background: #ff69b4; /* Pink */
+}
